@@ -5,7 +5,7 @@ import {Layout} from "./components";
 function App() {
   return (
       <Theme preset={presetGpnDefault}>
-          <Layout isBlue={false}/>
+          <Layout isBlue={true}/>
       </Theme>
   );
 }
